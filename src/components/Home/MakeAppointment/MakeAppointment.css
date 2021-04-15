@@ -1,0 +1,25 @@
+.appointment-container{
+    background-image: url('../../../images/appointment.png');
+    background-size: cover;
+    height:400px;
+    position:relative;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.appointment-container::before{
+    height:100%;
+    width:100%;
+    content:' ';
+    position: absolute;
+    top: 0;
+    opacity: .8;
+    display: block;
+    background: #3A4256;
+}
+.appointment-container img{
+    height: 530px;
+    transform:translateY(-130px);
+}
+.information{
+    transform:translateY(30px);
+}
