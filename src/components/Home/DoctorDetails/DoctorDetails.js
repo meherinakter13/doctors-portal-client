@@ -12,7 +12,7 @@ const DoctorDetails = ({doctor}) => {
         }
       
         <h4>{doctor.name}</h4>
-        <p> <FontAwesomeIcon style={{color:"#1CC7C1"}} icon={faPhoneAlt}/> +880-188-934789</p>
+        <p> <FontAwesomeIcon style={{color:"#1CC7C1"}} icon={faPhoneAlt}/> +880-188-934765</p>
     </div>
     );
 };
